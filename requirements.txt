@@ -1,0 +1,10 @@
+asgiref
+Django
+django-environ
+django-filter
+djangorestframework
+pillow
+pytz
+sqlparse
+typing_extensions
+tzdata
