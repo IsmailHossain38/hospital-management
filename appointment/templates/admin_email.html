@@ -1,0 +1,8 @@
+<h2>hello {{user.first_name}} {{user.last_name}}</h2>
+<h2>Hope you are doing well . you requested for an online appointment with {{doctor.user.first_name}} {{doctor.user.last_name}}</h2>
+{% comment %} <h2>Hope you are doing well . you requested for an online appointment with {{doctor.user.first_name}} {{doctor.user.last_name}}</h2> {% endcomment %}
+
+<p>
+    Your doctor is able to meet with you. Join the 
+   Meet Link:<a href="{{doctor.meet_link}}" target='_blank'>{{doctor.meet_link}}</a>
+</p>
